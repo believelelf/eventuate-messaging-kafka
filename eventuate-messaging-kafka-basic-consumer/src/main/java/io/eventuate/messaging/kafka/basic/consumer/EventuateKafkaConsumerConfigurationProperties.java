@@ -3,6 +3,9 @@ package io.eventuate.messaging.kafka.basic.consumer;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 消费者配置属性
+ */
 public class EventuateKafkaConsumerConfigurationProperties {
   private Map<String, String> properties = new HashMap<>();
 

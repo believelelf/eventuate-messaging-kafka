@@ -12,6 +12,9 @@ import java.util.Properties;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * kakfa生产者
+ */
 public class EventuateKafkaProducer {
 
   private Producer<String, byte[]> producer;

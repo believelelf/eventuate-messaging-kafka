@@ -8,6 +8,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * kafka消息定义，包括多个报文头和报文体
+ */
 public class EventuateKafkaMultiMessage extends KeyValue {
 
   private List<EventuateKafkaMultiMessageHeader> headers;

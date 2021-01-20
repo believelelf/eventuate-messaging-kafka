@@ -11,6 +11,9 @@ import org.agrona.concurrent.UnsafeBuffer;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * 消息转换器
+ */
 public class EventuateKafkaMultiMessageConverter {
   public static int HEADER_SIZE = MessageHeaderEncoder.ENCODED_LENGTH + MultiMessageEncoder.MessagesEncoder.HEADER_SIZE + MultiMessageEncoder.HeadersEncoder.HEADER_SIZE;
   public static final String MAGIC_ID = "a8c79db675e14c4cbf1eb77d0d6d0f00"; // generated UUID

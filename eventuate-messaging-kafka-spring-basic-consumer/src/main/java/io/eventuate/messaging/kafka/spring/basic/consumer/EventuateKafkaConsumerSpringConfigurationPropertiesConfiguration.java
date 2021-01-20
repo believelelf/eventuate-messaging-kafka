@@ -4,6 +4,9 @@ import io.eventuate.messaging.kafka.basic.consumer.EventuateKafkaConsumerConfigu
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * kafka消费
+ */
 @EnableConfigurationProperties(EventuateKafkaConsumerSpringConfigurationProperties.class)
 public class EventuateKafkaConsumerSpringConfigurationPropertiesConfiguration {
 

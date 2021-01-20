@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * kafka报文组合，包括多个报文头和报文体
+ */
 public class EventuateKafkaMultiMessages {
   private List<EventuateKafkaMultiMessagesHeader> headers;
   private List<EventuateKafkaMultiMessage> messages;

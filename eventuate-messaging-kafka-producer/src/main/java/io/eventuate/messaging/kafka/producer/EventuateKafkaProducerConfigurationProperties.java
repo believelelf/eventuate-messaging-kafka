@@ -3,6 +3,9 @@ package io.eventuate.messaging.kafka.producer;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * kafka生产者属性配置
+ */
 public class EventuateKafkaProducerConfigurationProperties {
   Map<String, String> properties = new HashMap<>();
 

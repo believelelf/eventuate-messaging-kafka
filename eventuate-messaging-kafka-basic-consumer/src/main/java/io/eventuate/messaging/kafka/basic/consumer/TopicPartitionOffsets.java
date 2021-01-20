@@ -6,6 +6,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * 跟踪正在处理或已经处理的TopicPartition的偏移量
+ *
  * Tracks the offsets for a TopicPartition that are being processed or have been processed
  */
 public class TopicPartitionOffsets {

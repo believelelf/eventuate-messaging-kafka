@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * Offset追踪
  * Keeps track of message offsets that are (a) being processed and (b) have been processed and can be committed
  */
 public class OffsetTracker {

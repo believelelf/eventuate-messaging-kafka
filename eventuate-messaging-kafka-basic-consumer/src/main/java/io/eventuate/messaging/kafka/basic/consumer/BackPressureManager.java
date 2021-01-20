@@ -5,6 +5,9 @@ import org.apache.kafka.common.TopicPartition;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ *
+ */
 public class BackPressureManager {
 
   private final BackPressureConfig backPressureConfig;

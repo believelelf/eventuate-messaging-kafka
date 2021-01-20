@@ -10,6 +10,9 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
+/**
+ * 分区选择器
+ */
 public class EventuateKafkaPartitioner {
 
   private final ConcurrentMap<String, AtomicInteger> topicCounterMap = new ConcurrentHashMap<>();

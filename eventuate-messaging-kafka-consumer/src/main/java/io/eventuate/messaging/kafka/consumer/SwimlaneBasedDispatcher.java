@@ -7,6 +7,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executor;
 import java.util.function.Consumer;
 
+/**
+ * 咏道分发器
+ */
 public class SwimlaneBasedDispatcher {
 
   private static Logger logger = LoggerFactory.getLogger(SwimlaneBasedDispatcher.class);

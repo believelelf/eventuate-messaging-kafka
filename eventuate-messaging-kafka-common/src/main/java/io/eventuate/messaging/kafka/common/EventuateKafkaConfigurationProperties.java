@@ -1,5 +1,8 @@
 package io.eventuate.messaging.kafka.common;
 
+/**
+ * kafka 连接串及连接校验超时时间
+ */
 public class EventuateKafkaConfigurationProperties {
 
   private String bootstrapServers;

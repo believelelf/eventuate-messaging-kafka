@@ -5,6 +5,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * kafka生产者属性
+ */
 @ConfigurationProperties("eventuate.local.kafka.producer")
 public class EventuateKafkaProducerSpringConfigurationProperties {
   Map<String, String> properties = new HashMap<>();

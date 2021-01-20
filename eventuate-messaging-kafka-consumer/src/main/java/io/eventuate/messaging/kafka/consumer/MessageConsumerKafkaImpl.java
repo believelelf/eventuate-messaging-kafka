@@ -15,6 +15,9 @@ import java.util.*;
 import java.util.concurrent.Executors;
 import java.util.function.BiConsumer;
 
+/**
+ * kafka消费者实现
+ */
 public class MessageConsumerKafkaImpl implements CommonMessageConsumer {
 
   private Logger logger = LoggerFactory.getLogger(getClass());

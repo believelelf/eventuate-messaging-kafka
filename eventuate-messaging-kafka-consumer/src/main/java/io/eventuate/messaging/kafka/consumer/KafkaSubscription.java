@@ -1,5 +1,8 @@
 package io.eventuate.messaging.kafka.consumer;
 
+/**
+ * kafka订阅者
+ */
 public class KafkaSubscription {
   private Runnable closingCallback;
 

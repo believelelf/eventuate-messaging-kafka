@@ -1,5 +1,8 @@
 package io.eventuate.messaging.kafka.consumer;
 
+/**
+ * 原始类型kafka消息
+ */
 public class RawKafkaMessage {
   private byte[] payload;
 

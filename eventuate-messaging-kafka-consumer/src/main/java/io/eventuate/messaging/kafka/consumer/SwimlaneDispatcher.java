@@ -8,6 +8,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
 
+/**
+ * 分发器
+ */
 public class SwimlaneDispatcher {
 
   private static Logger logger = LoggerFactory.getLogger(SwimlaneDispatcher.class);
